@@ -1,5 +1,7 @@
 @import 'config';
 
+// Colors
+
 .aqua {
 	color: $aqua;
 }
@@ -62,4 +64,70 @@
 
 .yellow {
 	color: $yellow;
+}
+
+// backgroung-color
+
+.bg-aqua {
+	background-color: $aqua;
+}
+
+.bg-blue {
+	background-color: $blue;
+}
+
+.bg-black {
+	background-color: $black;
+}
+
+.bg-fuchsia {
+	background-color: $fuchsia;
+}
+
+.bg-gray {
+	background-color: $gray;
+}
+
+.bg-green {
+	background-color: $green;
+}
+
+.bg-lime {
+	background-color: $lime;
+}
+
+.bg-maroon {
+	background-color: $maroon;
+}
+
+.bg-navy {
+	background-color: $navy;
+}
+
+.bg-olive {
+	background-color: $olive;
+}
+
+.bg-purple {
+	background-color: $purple;
+}
+
+.bg-red {
+	background-color: $red;
+}
+
+.bg-silver {
+	background-color: $silver;
+}
+
+.bg-teal {
+	background-color: $teal;
+}
+
+.bg-white {
+	background-color: $white;
+}
+
+.bg-yellow {
+	background-color: $yellow;
 }
