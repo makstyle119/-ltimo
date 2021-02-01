@@ -1,0 +1,161 @@
+// Border color
+$border-px: (1, 2, 3, 4, 5);
+
+@each $px in $border-px {
+	.border-aqua-#{$px} {
+		border: #{$px}px $solid $aqua;
+	}
+	.border-blue-#{$px} {
+		border: #{$px}px $solid $blue;
+	}
+	.border-black-#{$px} {
+		border: #{$px}px $solid $black;
+	}
+	.border-fuchsia-#{$px} {
+		border: #{$px}px $solid $fuchsia;
+	}
+	.border-gray-#{$px} {
+		border: #{$px}px $solid $gray;
+	}
+	.border-green-#{$px} {
+		border: #{$px}px $solid $green;
+	}
+	.border-lime-#{$px} {
+		border: #{$px}px $solid $lime;
+	}
+	.border-maroon-#{$px} {
+		border: #{$px}px $solid $maroon;
+	}
+	.border-navy-#{$px} {
+		border: #{$px}px $solid $navy;
+	}
+	.border-olive-#{$px} {
+		border: #{$px}px $solid $olive;
+	}
+	.border-purple-#{$px} {
+		border: #{$px}px $solid $purple;
+	}
+	.border-red-#{$px} {
+		border: #{$px}px $solid $red;
+	}
+	.border-silver-#{$px} {
+		border: #{$px}px $solid $silver;
+	}
+	.border-teal-#{$px} {
+		border: #{$px}px $solid $teal;
+	}
+	.border-white-#{$px} {
+		border: #{$px}px $solid $white;
+	}
+	.border-yellow-#{$px} {
+		border: #{$px}px $solid $yellow;
+	}
+}
+
+// Dotted color
+$dotted-px: (1, 2, 3, 4, 5);
+
+@each $px in $dotted-px {
+	.dotted-aqua-#{$px} {
+		border: #{$px}px $dotted $aqua;
+	}
+	.dotted-blue-#{$px} {
+		border: #{$px}px $dotted $blue;
+	}
+	.dotted-black-#{$px} {
+		border: #{$px}px $dotted $black;
+	}
+	.dotted-fuchsia-#{$px} {
+		border: #{$px}px $dotted $fuchsia;
+	}
+	.dotted-gray-#{$px} {
+		border: #{$px}px $dotted $gray;
+	}
+	.dotted-green-#{$px} {
+		border: #{$px}px $dotted $green;
+	}
+	.dotted-lime-#{$px} {
+		border: #{$px}px $dotted $lime;
+	}
+	.dotted-maroon-#{$px} {
+		border: #{$px}px $dotted $maroon;
+	}
+	.dotted-navy-#{$px} {
+		border: #{$px}px $dotted $navy;
+	}
+	.dotted-olive-#{$px} {
+		border: #{$px}px $dotted $olive;
+	}
+	.dotted-purple-#{$px} {
+		border: #{$px}px $dotted $purple;
+	}
+	.dotted-red-#{$px} {
+		border: #{$px}px $dotted $red;
+	}
+	.dotted-silver-#{$px} {
+		border: #{$px}px $dotted $silver;
+	}
+	.dotted-teal-#{$px} {
+		border: #{$px}px $dotted $teal;
+	}
+	.dotted-white-#{$px} {
+		border: #{$px}px $dotted $white;
+	}
+	.dotted-yellow-#{$px} {
+		border: #{$px}px $dotted $yellow;
+	}
+}
+
+// Dashed color
+$dashed-px: (1, 2, 3, 4, 5);
+
+@each $px in $dashed-px {
+	.dashed-aqua-#{$px} {
+		border: #{$px}px $dashed $aqua;
+	}
+	.dashed-blue-#{$px} {
+		border: #{$px}px $dashed $blue;
+	}
+	.dashed-black-#{$px} {
+		border: #{$px}px $dashed $black;
+	}
+	.dashed-fuchsia-#{$px} {
+		border: #{$px}px $dashed $fuchsia;
+	}
+	.dashed-gray-#{$px} {
+		border: #{$px}px $dashed $gray;
+	}
+	.dashed-green-#{$px} {
+		border: #{$px}px $dashed $green;
+	}
+	.dashed-lime-#{$px} {
+		border: #{$px}px $dashed $lime;
+	}
+	.dashed-maroon-#{$px} {
+		border: #{$px}px $dashed $maroon;
+	}
+	.dashed-navy-#{$px} {
+		border: #{$px}px $dashed $navy;
+	}
+	.dashed-olive-#{$px} {
+		border: #{$px}px $dashed $olive;
+	}
+	.dashed-purple-#{$px} {
+		border: #{$px}px $dashed $purple;
+	}
+	.dashed-red-#{$px} {
+		border: #{$px}px $dashed $red;
+	}
+	.dashed-silver-#{$px} {
+		border: #{$px}px $dashed $silver;
+	}
+	.dashed-teal-#{$px} {
+		border: #{$px}px $dashed $teal;
+	}
+	.dashed-white-#{$px} {
+		border: #{$px}px $dashed $white;
+	}
+	.dashed-yellow-#{$px} {
+		border: #{$px}px $dashed $yellow;
+	}
+}

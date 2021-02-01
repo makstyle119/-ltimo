@@ -1,68 +1,69 @@
 @import 'config';
+@import 'utilities';
 
 // Colors
 
-.aqua {
+.text-aqua {
 	color: $aqua;
 }
 
-.blue {
+.text-blue {
 	color: $blue;
 }
 
-.black {
+.text-black {
 	color: $black;
 }
 
-.fuchsia {
+.text-fuchsia {
 	color: $fuchsia;
 }
 
-.gray {
+.text-gray {
 	color: $gray;
 }
 
-.green {
+.text-green {
 	color: $green;
 }
 
-.lime {
+.text-lime {
 	color: $lime;
 }
 
-.maroon {
+.text-maroon {
 	color: $maroon;
 }
 
-.navy {
+.text-navy {
 	color: $navy;
 }
 
-.olive {
+.text-olive {
 	color: $olive;
 }
 
-.purple {
+.text-purple {
 	color: $purple;
 }
 
-.red {
+.text-red {
 	color: $red;
 }
 
-.silver {
+.text-silver {
 	color: $silver;
 }
 
-.teal {
+.text-teal {
 	color: $teal;
 }
 
-.white {
+.text-white {
 	color: $white;
 }
 
-.yellow {
+.text-yellow {
 	color: $yellow;
 }
 
@@ -130,4 +131,46 @@
 
 .bg-yellow {
 	background-color: $yellow;
+}
+
+// Border
+
+.border-dotted {
+	border-style: $dotted;
+}
+
+.border-dashed {
+	border-style: $dashed;
+}
+
+.border-solid {
+	border-style: $solid;
+}
+
+.border-double {
+	border-style: $double;
+}
+
+.border-groove {
+	border-style: $groove;
+}
+
+.border-ridge {
+	border-style: $ridge;
+}
+
+.border-inset {
+	border-style: $inset;
+}
+
+.border-outset {
+	border-style: $outset;
+}
+
+.border-none {
+	border-style: $none;
+}
+
+.border-hidden {
+	border-style: $hidden;
 }
